@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".Main">
+
+    <TextView
+        android:text="@string/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/valor1"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/numero1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sumar"
+        android:id="@+id/sumar"
+        android:layout_gravity="center"
+        android:layout_marginTop="43dp" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/valor2"
+        android:layout_gravity="center"
+        android:layout_marginTop="43dp"
+        android:hint="@string/numero2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>
