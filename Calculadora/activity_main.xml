@@ -25,28 +25,50 @@
         android:layout_gravity="center"
         android:hint="@string/numero1"
         />
-
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sumar"
-        android:id="@+id/sumar"
-        android:layout_gravity="center"
-        android:layout_marginTop="43dp" />
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restar"
+            android:id="@+id/restar"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sumar"
+            android:id="@+id/sumar"
+            android:layout_gravity="center" />
+        </LinearLayout>
+
 
     <EditText
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:id="@+id/valor2"
         android:layout_gravity="center"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="20dp"
         android:hint="@string/numero2"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/igual"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="="
+        android:textSize="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/resultado"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="20dp"
+        android:hint="Aca aparecerá el resultado"
+        android:textSize="20dp"/>
 
 </LinearLayout>
