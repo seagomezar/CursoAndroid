@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase_Personificador</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listado">Listado</string>
+    <string-array name="opciones_del_dialogo">
+        <item>Nos casamos?</item>
+        <item>Nos vamos?</item>
+        <item>Nos morimos?</item>
+    </string-array>
+    <string name="texto_boton_si">Sisas</string>
+    <string name="texto_boton_no">No</string>
+
+</resources>
