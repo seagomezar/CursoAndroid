@@ -1,6 +1,7 @@
 package com.example.admin.clase_personificador;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,6 +56,18 @@ public class Adaptador extends BaseAdapter
         txt_imagen.setImageResource(sImagen);
         txt_nombre.setText(sNombre);
         txt_titulo.setText(sTitulo);
+
+        miVista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(activity,Detalle.class);
+                i.putExtra("nombre",sNombre);
+                i.putExtra("titulo",sTitulo);
+                i.putExtra("descripcion",sDescripcion);
+                i.putExtra("imagen",sImagen);
+                activity.startActivity(i);
+            }
+        });
 
         return miVista;
 

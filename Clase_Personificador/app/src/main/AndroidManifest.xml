@@ -20,6 +20,10 @@
             android:name=".Listado"
             android:label="@string/title_activity_listado" >
         </activity>
+        <activity
+            android:name=".Detalle"
+            android:label="@string/title_activity_detalle" >
+        </activity>
     </application>
 
 </manifest>
