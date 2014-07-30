@@ -12,5 +12,6 @@
     </string-array>
     <string name="texto_boton_si">Sisas</string>
     <string name="texto_boton_no">No</string>
+    <string name="titulo_listado">Estas son tus personas favoritas</string>
 
 </resources>
